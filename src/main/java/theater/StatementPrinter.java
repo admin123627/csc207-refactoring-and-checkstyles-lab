@@ -67,8 +67,8 @@ public class StatementPrinter {
         return rslt;
     }
 
-    private Play getPlay(Performance p) {
-        return getPlays().get(p.getPlayID());
+    private Play getPlay(Performance performance) {
+        return getPlays().get(performance.getPlayID());
     }
 
     private int getAmount(Performance performance) {
